@@ -22,10 +22,10 @@ jobs:
       - name: Install locked dependencies
         run: uv sync --locked --python ${{ matrix.python }}
       - name: Workspace integrity
-        run: uv run python scripts/check_workspace.py
+        run: uv run --python ${{ matrix.python }} python scripts/check_workspace.py
       - name: Tests
-        run: uv run pytest
+        run: uv run --python ${{ matrix.python }} pytest
       - name: Lint
-        run: uv run ruff check .
+        run: uv run --python ${{ matrix.python }} ruff check .
       - name: Formatting
-        run: uv run ruff format --check .
+        run: uv run --python ${{ matrix.python }} ruff format --check .

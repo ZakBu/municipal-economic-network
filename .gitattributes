@@ -1,0 +1,4 @@
+* text=auto eol=lf
+# Preserve the upstream snapshot bytes on every operating system.
+.agents/** -text
+_bmad/scripts/** -text

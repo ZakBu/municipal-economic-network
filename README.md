@@ -47,12 +47,17 @@ uv run python scripts/check_workspace.py
 Если skill не появился, откройте новый чат или перезапустите Codex.
 Подробнее: [BMAD_GUIDE](docs/BMAD_GUIDE.md).
 
+Для подключения нового Codex или другого AI-агента используйте готовый промпт и проверку
+прав из [AI_AGENT_ONBOARDING](docs/AI_AGENT_ONBOARDING.md). Он связывает документы,
+GitHub Issues, [Kanban](https://github.com/users/ZakBu/projects/1), ветки и Pull Requests
+в один рабочий цикл.
+
 ## Где что хранить
 
 | Что | Где |
 |---|---|
 | Задачи, ответственные, обсуждение выполнения | [GitHub Issues](https://github.com/ZakBu/municipal-economic-network/issues) |
-| Статусы задач | GitHub Project; [инструкция создания](docs/PROJECT_MANAGEMENT.md) |
+| Статусы задач | [GitHub Project #1](https://github.com/users/ZakBu/projects/1); [правила Kanban](docs/PROJECT_MANAGEMENT.md) |
 | Идеи и вопросы | [docs/ideas/inbox.md](docs/ideas/inbox.md) |
 | Требования и планы BMAD | `_bmad-output/planning-artifacts/` |
 | Рабочие спецификации и истории BMAD | `_bmad-output/implementation-artifacts/` |
@@ -76,5 +81,5 @@ CI выполняет эти проверки на Python 3.11 и 3.12. Стар
 пакета и конфигурацию; по мере реализации добавляйте предметные тесты.
 Сейчас проект не содержит вычислительного pipeline или готовых результатов исследования.
 
-[Правила вкладов](CONTRIBUTING.md) · [Контекст проекта](docs/PROJECT.md) ·
+[Подключение AI-агента](docs/AI_AGENT_ONBOARDING.md) · [Правила вкладов](CONTRIBUTING.md) · [Контекст проекта](docs/PROJECT.md) ·
 [Карта разделов](RESEARCH_MAP.md) · [Правила Codex](AGENTS.md)

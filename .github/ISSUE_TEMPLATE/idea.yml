@@ -1,0 +1,14 @@
+name: Идея или вопрос
+description: Предложить направление для командного обсуждения
+title: '[IDEA] '
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Идея и польза для проекта
+    validations:
+      required: true
+  - type: textarea
+    id: check
+    attributes:
+      label: Как можно проверить и что для этого нужно

@@ -1,0 +1,7 @@
+# Workspace metadata only; no research defaults have been chosen.
+project_name: municipal-economic-network
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+  reports: reports

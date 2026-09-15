@@ -1,0 +1,21 @@
+name: Ошибка
+description: Сообщить о воспроизводимой проблеме
+title: '[BUG] '
+body:
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Как воспроизвести
+      description: Команда, конфиг, версия кода; не прикладывайте секреты.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемое и фактическое поведение
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Среда и диагностические сообщения

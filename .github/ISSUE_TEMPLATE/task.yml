@@ -1,0 +1,26 @@
+name: Задача
+description: Работа с понятным результатом и критериями приёмки
+title: '[TASK] '
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Ожидаемый результат
+      description: Что должно появиться или измениться?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Критерии приёмки
+      placeholder: '- [ ] Результат можно проверить следующим способом...'
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Входные материалы, зависимости и BMAD-документ
+  - type: textarea
+    id: scope
+    attributes:
+      label: Границы задачи и договорённости с коллегами

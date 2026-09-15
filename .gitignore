@@ -1,0 +1,36 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+.ipynb_checkpoints/
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+reports/runs/*
+!reports/runs/.gitkeep
+*.parquet
+*.feather
+*.zip
+*.gpkg
+_bmad/**/*.user.toml
+_bmad/.cache/
+_bmad-output/.cache/
+.bmad-help-setup-*.toml
+
+# Local Skills CLI metadata is replaced by portable bmad.lock.json
+skills-lock.json
+
+# Machine-specific rendered BMAD workflows
+_bmad/render/

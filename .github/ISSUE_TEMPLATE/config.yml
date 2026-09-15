@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Инструкция команды
+    url: https://github.com/ZakBu/municipal-economic-network/blob/main/docs/TEAM_GUIDE.md
+    about: Подключение, BMAD, ветки и Pull Requests

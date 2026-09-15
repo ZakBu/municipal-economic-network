@@ -44,6 +44,7 @@ def main():
         "AGENTS.md",
         "README.md",
         "CONTRIBUTING.md",
+        "docs/AI_AGENT_ONBOARDING.md",
         "docs/TEAM_GUIDE.md",
         "docs/BMAD_GUIDE.md",
         "docs/PROJECT_MANAGEMENT.md",
